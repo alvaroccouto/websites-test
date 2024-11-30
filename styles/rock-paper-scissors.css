@@ -1,7 +1,9 @@
-body{
+body, html{
   background: rgb(25,25,25);
   color: white;
   font-family: Arial;
+  height:100%;
+  margin: 0;
 }
 
 .title{
@@ -40,4 +42,11 @@ body{
   padding: 8px 15px;
   font-size: 15px;
   cursor: pointer;      
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
 }
